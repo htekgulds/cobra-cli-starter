@@ -1,0 +1,51 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the go build command
+*.out
+
+# Compiled binary or build output
+/mycli
+/bin/
+/build/
+/dist/
+/out/
+
+# Go coverage files
+*.cover
+*.cov
+coverage.out
+
+# Dependency directories (vendor)
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.iml
+
+# macOS / Windows noise
+.DS_Store
+Thumbs.db
+
+# Environment / local configs
+.env
+.env.local
+config.yaml
+config.local.yaml
+
+# Cache
+.go-build/
